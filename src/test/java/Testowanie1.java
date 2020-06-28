@@ -73,7 +73,7 @@ public class Testowanie1 {
 
         String wynikTestu = driver.getTitle();
         czekanie(1000);     // WYWOŁANIE FUNKCJI SLEEPA
-        WebDriverWait wait = new WebDriverWait(driver, 5)
+        WebDriverWait wait = new WebDriverWait(driver, 5);
         Assert.assertEquals(wynikTestu, "Google");
     }
 
