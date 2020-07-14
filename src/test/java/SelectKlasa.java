@@ -14,7 +14,7 @@ public class SelectKlasa {
     }
 
     @Before
-    public void start(){
+    public void start() {
         System.setProperty("webdriver.chrome.driver", "E:\\mvnrepository.com\\chromeDriver_Wersja_83\\chromedriver.exe");
 
         driver = new ChromeDriver();
@@ -35,7 +35,7 @@ public class SelectKlasa {
     @After
     public void poWszystkim()
     {
-        
+
     }
 
 
